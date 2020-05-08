@@ -80,7 +80,7 @@ Assume you have setup HADOOP_HOME and HADOOP_CONF_DIR when installing hadoop. Sp
 # Setup HiBench Benchmark Suite
 Please download HiBench from [HiBench webpage](https://github.com/intel-hadoop/HiBench.git). You can run the following command to build HiBench.
 ```
-mvn -Psparkbench -Dspark=2.4.4 -Dscala=2.11 clean package
+mvn -Psparkbench -Dspark=2.4 -Dscala=2.11 clean package
 ```
 
 Please follow the guide [run-sparkbench] (https://github.com/Intel-bigdata/HiBench/blob/master/docs/run-sparkbench.md) to configure the hadoop.conf and spark.conf in HiBench.
